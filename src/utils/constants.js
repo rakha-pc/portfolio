@@ -19,7 +19,7 @@ const cogniva = Object.entries(
   .map(([, img]) => img.default);
 
 export const PROFILE_DATA = {
-  name: "Aldan Prayogi",
+  name: "Rakha Hanif Dzakwan",
   role: "Automation & Control Systems Engineer",
   email: "prayogialdan@gmail.com",
   socials: [
@@ -84,7 +84,7 @@ const en = {
     projects_completed: "Projects Completed",
   },
   profile: {
-    name: "Aldan Prayogi",
+    name: "Rakha Hanif Dzakwan",
     role: "Automation & Control Systems Engineer",
     description:
       "Engineer experienced in computer vision, embedded systems, and web applications, focused on automating inspection and monitoring processes. Delivered solutions that improved accuracy up to 98% and reduced operational time from manual to near real-time.",
@@ -491,7 +491,7 @@ const id = {
     projects_completed: "Proyek Selesai",
   },
   profile: {
-    name: "Aldan Prayogi",
+    name: "Rakha Hanif Dzakwan",
     role: "Automation Engineer",
     description:
       "Seorang profesional yang penuh semangat dengan kemampuan kolaborasi yang kuat dan pengalaman bekerja dalam tim lintas disiplin. Kemampuan mendengarkan yang kuat mendukung pemahaman mendalam tentang beragam perspektif dan kebutuhan tim. Percaya bahwa kerja tim yang efektif dan komunikasi yang jelas sangat penting untuk mencapai hasil yang luar biasa, dengan komitmen untuk berkontribusi dan terus belajar demi mencapai tujuan bersama.",

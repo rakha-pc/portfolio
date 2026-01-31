@@ -8,7 +8,7 @@ export const ThemeProvider = ({ children }) => {
         if (savedTheme) return savedTheme;
 
         // Default to system theme
-        return window.matchMedia("(prefers-color-scheme: dark)").matches ? "night" : "winter";
+        return window.matchMedia("(prefers-color-scheme: dark)").matches ? "night" : "silk";
     });
 
     useEffect(() => {
@@ -17,7 +17,7 @@ export const ThemeProvider = ({ children }) => {
     }, [theme]);
 
     const toggleTheme = () => {
-        setTheme((prev) => (prev === "winter" ? "night" : "winter"));
+        setTheme((prev) => (prev === "silk" ? "night" : "silk"));
     };
 
     return (

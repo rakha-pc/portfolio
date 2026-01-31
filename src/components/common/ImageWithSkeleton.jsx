@@ -16,7 +16,7 @@ const ImageWithSkeleton = ({ src, alt, className, style, skeletonClassName }) =>
 
                     {/* Spinner */}
                     <div className="absolute inset-0 flex items-center justify-center">
-                        <span className="loading loading-spinner loading-md text-primary"></span>
+                        <span className="loading loading-infinity  loading-md text-primary"></span>
                     </div>
                 </div>
             )}
