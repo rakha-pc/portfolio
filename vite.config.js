@@ -13,6 +13,6 @@ export default defineConfig(({ mode }) => ({
       }),
     }),
   ],
-  base: mode === "gh-pages" ? "/portofolio/" : "/",
+  base: mode === "gh-pages" ? "/portfolio/" : "/",
   
 }));
